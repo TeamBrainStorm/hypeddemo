@@ -42,17 +42,25 @@
 <body>
   <script>
     window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
+      // Wait for flutter.js to load
+      var checkFlutter = setInterval(function() {
+        if (window._flutter && window._flutter.loader) {
+          clearInterval(checkFlutter);
+          _flutter.loader.load({
+            serviceWorkerSettings: {
+              serviceWorkerVersion: serviceWorkerVersion,
+            }
           });
         }
-      });
+      }, 100);
+      
+      // Fallback timeout
+      setTimeout(function() {
+        clearInterval(checkFlutter);
+        if (!window._flutter) {
+          console.error('Flutter failed to load');
+        }
+      }, 10000);
     });
   </script>
 </body>
