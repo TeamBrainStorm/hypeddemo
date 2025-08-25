@@ -6132,7 +6132,7 @@ for(s=a.gah(a),r=0,q=0;s.B();){p=J.z(s.gN(s))
 o=((p^p>>>16)>>>0)*569420461>>>0
 o=((o^o>>>15)>>>0)*3545902487>>>0
 r=r+((o^o>>>15)>>>0)&1073741823;++q}return A.aEQ(r,q,0)},
-bw(a){A.Iy(A.k(a))},
+bv(a){A.Iy(A.k(a))},
 ahI(a,b,c,d){return new A.l3(a,b,c.i("@<0>").bC(d).i("l3<1,2>"))},
 aQz(){$.IP()
 return new A.D6()},
@@ -11898,12 +11898,12 @@ switch(c.a){case 0:s=l.d
 s===$&&A.a()
 r=l.a
 r===$&&A.a()
-r=A.bv(r,36)
-q=A.bv(l.a,16)
-p=A.bv(A.AF(l.a+60),24)
-o=A.bv(l.a,6)
-n=A.bv(l.a,8)
-n=new A.OQ(A.fQ(s),B.Wk,m,d,r,q,p,o,n,A.bv(25,84))
+r=A.bw(r,36)
+q=A.bw(l.a,16)
+p=A.bw(A.AF(l.a+60),24)
+o=A.bw(l.a,6)
+n=A.bw(l.a,8)
+n=new A.OQ(A.fQ(s),B.Wk,m,d,r,q,p,o,n,A.bw(25,84))
 s=n
 break
 case 1:s=l.d
@@ -11912,14 +11912,14 @@ r=l.a
 r===$&&A.a()
 q=l.b
 q===$&&A.a()
-q=A.bv(r,q)
+q=A.bw(r,q)
 r=l.a
 p=l.b
-p=A.bv(r,Math.max(p-32,p*0.5))
+p=A.bw(r,Math.max(p-32,p*0.5))
 r=A.aF6(A.axG(A.aER(l).gagS()))
-o=A.bv(l.a,l.b/8)
-n=A.bv(l.a,l.b/8+4)
-n=new A.OL(A.fQ(s),B.d6,m,d,q,p,r,o,n,A.bv(25,84))
+o=A.bw(l.a,l.b/8)
+n=A.bw(l.a,l.b/8+4)
+n=new A.OL(A.fQ(s),B.d6,m,d,q,p,r,o,n,A.bw(25,84))
 s=n
 break
 case 6:s=l.d
@@ -11928,86 +11928,86 @@ r=l.a
 r===$&&A.a()
 q=l.b
 q===$&&A.a()
-q=A.bv(r,q)
+q=A.bw(r,q)
 r=l.a
 p=l.b
-p=A.bv(r,Math.max(p-32,p*0.5))
+p=A.bw(r,Math.max(p-32,p*0.5))
 r=A.aF6(A.axG(B.b.gac(A.aER(l).afY(3,6))))
-o=A.bv(l.a,l.b/8)
-n=A.bv(l.a,l.b/8+4)
-n=new A.OJ(A.fQ(s),B.d5,m,d,q,p,r,o,n,A.bv(25,84))
+o=A.bw(l.a,l.b/8)
+n=A.bw(l.a,l.b/8+4)
+n=new A.OJ(A.fQ(s),B.d5,m,d,q,p,r,o,n,A.bw(25,84))
 s=n
 break
 case 2:s=l.d
 s===$&&A.a()
 r=l.a
 r===$&&A.a()
-r=A.bv(r,0)
-q=A.bv(l.a,0)
-p=A.bv(l.a,0)
-o=A.bv(l.a,0)
-n=A.bv(l.a,0)
-n=new A.ON(A.fQ(s),B.ak,m,d,r,q,p,o,n,A.bv(25,84))
+r=A.bw(r,0)
+q=A.bw(l.a,0)
+p=A.bw(l.a,0)
+o=A.bw(l.a,0)
+n=A.bw(l.a,0)
+n=new A.ON(A.fQ(s),B.ak,m,d,r,q,p,o,n,A.bw(25,84))
 s=n
 break
 case 3:s=l.d
 s===$&&A.a()
 r=l.a
 r===$&&A.a()
-r=A.bv(r,12)
-q=A.bv(l.a,8)
-p=A.bv(l.a,16)
-o=A.bv(l.a,2)
-n=A.bv(l.a,2)
-n=new A.OO(A.fQ(s),B.Wj,m,d,r,q,p,o,n,A.bv(25,84))
+r=A.bw(r,12)
+q=A.bw(l.a,8)
+p=A.bw(l.a,16)
+o=A.bw(l.a,2)
+n=A.bw(l.a,2)
+n=new A.OO(A.fQ(s),B.Wj,m,d,r,q,p,o,n,A.bw(25,84))
 s=n
 break
 case 4:s=l.d
 s===$&&A.a()
 r=l.a
 r===$&&A.a()
-r=A.bv(r,200)
-q=A.bv(A.a3m(l,$.aEv,$.aPX),24)
-p=A.bv(A.a3m(l,$.aEv,$.aPY),32)
-o=A.bv(l.a,10)
-n=A.bv(l.a,12)
-n=new A.OR(A.fQ(s),B.Wl,m,d,r,q,p,o,n,A.bv(25,84))
+r=A.bw(r,200)
+q=A.bw(A.a3m(l,$.aEv,$.aPX),24)
+p=A.bw(A.a3m(l,$.aEv,$.aPY),32)
+o=A.bw(l.a,10)
+n=A.bw(l.a,12)
+n=new A.OR(A.fQ(s),B.Wl,m,d,r,q,p,o,n,A.bw(25,84))
 s=n
 break
 case 5:s=l.d
 s===$&&A.a()
 r=l.a
 r===$&&A.a()
-r=A.bv(A.AF(r+240),40)
-q=A.bv(A.a3m(l,$.aEu,$.aPV),24)
-p=A.bv(A.a3m(l,$.aEu,$.aPW),32)
-o=A.bv(l.a+15,8)
-n=A.bv(l.a+15,12)
-n=new A.OK(A.fQ(s),B.Wm,m,d,r,q,p,o,n,A.bv(25,84))
+r=A.bw(A.AF(r+240),40)
+q=A.bw(A.a3m(l,$.aEu,$.aPV),24)
+p=A.bw(A.a3m(l,$.aEu,$.aPW),32)
+o=A.bw(l.a+15,8)
+n=A.bw(l.a+15,12)
+n=new A.OK(A.fQ(s),B.Wm,m,d,r,q,p,o,n,A.bw(25,84))
 s=n
 break
 case 7:s=l.d
 s===$&&A.a()
 r=l.a
 r===$&&A.a()
-r=A.bv(r,48)
-q=A.bv(l.a,16)
-p=A.bv(A.AF(l.a+60),24)
-o=A.bv(l.a,0)
-n=A.bv(l.a,0)
-n=new A.OP(A.fQ(s),B.Wn,m,d,r,q,p,o,n,A.bv(25,84))
+r=A.bw(r,48)
+q=A.bw(l.a,16)
+p=A.bw(A.AF(l.a+60),24)
+o=A.bw(l.a,0)
+n=A.bw(l.a,0)
+n=new A.OP(A.fQ(s),B.Wn,m,d,r,q,p,o,n,A.bw(25,84))
 s=n
 break
 case 8:s=l.d
 s===$&&A.a()
 r=l.a
 r===$&&A.a()
-r=A.bv(A.AF(r-50),48)
-q=A.bv(A.AF(l.a-50),36)
-p=A.bv(l.a,36)
-o=A.bv(l.a,10)
-n=A.bv(l.a,16)
-n=new A.OM(A.fQ(s),B.Wo,m,d,r,q,p,o,n,A.bv(25,84))
+r=A.bw(A.AF(r-50),48)
+q=A.bw(A.AF(l.a-50),36)
+p=A.bw(l.a,36)
+o=A.bw(l.a,10)
+n=A.bw(l.a,16)
+n=new A.OM(A.fQ(s),B.Wo,m,d,r,q,p,o,n,A.bw(25,84))
 s=n
 break
 default:s=null}return s},
@@ -25764,32 +25764,45 @@ a11:function a11(){},
 a12:function a12(){},
 a13:function a13(){},
 a14:function a14(){},
-awA(){var s=0,r=A.E(t.H),q,p,o,n,m,l,k
-var $async$awA=A.A(function(a,b){if(a===1)return A.B(b,r)
-while(true)switch(s){case 0:if($.aa==null)A.aFr()
+awA(){var s=0,r=A.E(t.H),q=1,p=[],o,n,m,l,k,j,i,h,g,f
+var $async$awA=A.A(function(a,b){if(a===1){p.push(b)
+s=q}while(true)switch(s){case 0:if($.aa==null)A.aFr()
 $.aa.toString
-s=2
+q=3
+s=6
 return A.H(A.a5w(A.aMt()),$async$awA)
-case 2:if($.aa==null)A.aFr()
-q=$.aa
-q.toString
-p=$.aU()
-o=t.e8
-if(o.a(p.gcL().b.h(0,0))==null)A.ap(A.a9('The app requested a view, but the platform did not provide one.\nThis is likely because the app called `runApp` to render its root widget, which expects the platform to provide a default view to render into (the "implicit" view).\nHowever, the platform likely has multi-view mode enabled, which does not create this default "implicit" view.\nTry using `runWidget` instead of `runApp` to start your app.\n`runWidget` allows you to provide a `View` widget, without requiring a default view.\nSee: https://flutter.dev/to/web-multiview-runwidget'))
-n=o.a(p.gcL().b.h(0,0))
-n.toString
-m=q.gA6()
-l=q.ay$
-if(l===$){p=o.a(p.gcL().b.h(0,0))
-p.toString
-k=new A.Wh(B.G,p,null,A.al())
-k.aF()
-k.a1u(null,null,p)
-q.ay$!==$&&A.ab()
-q.ay$=k
-l=k}q.Xf(new A.E5(n,B.KG,m,l,null))
-q.J1()
-return A.C(null,r)}})
+case 6:q=1
+s=5
+break
+case 3:q=2
+f=p.pop()
+o=A.a8(f)
+A.bv("Firebase initialization failed: "+A.k(o))
+s=5
+break
+case 2:s=1
+break
+case 5:if($.aa==null)A.aFr()
+m=$.aa
+m.toString
+l=$.aU()
+k=t.e8
+if(k.a(l.gcL().b.h(0,0))==null)A.ap(A.a9('The app requested a view, but the platform did not provide one.\nThis is likely because the app called `runApp` to render its root widget, which expects the platform to provide a default view to render into (the "implicit" view).\nHowever, the platform likely has multi-view mode enabled, which does not create this default "implicit" view.\nTry using `runWidget` instead of `runApp` to start your app.\n`runWidget` allows you to provide a `View` widget, without requiring a default view.\nSee: https://flutter.dev/to/web-multiview-runwidget'))
+j=k.a(l.gcL().b.h(0,0))
+j.toString
+i=m.gA6()
+h=m.ay$
+if(h===$){l=k.a(l.gcL().b.h(0,0))
+l.toString
+g=new A.Wh(B.G,l,null,A.al())
+g.aF()
+g.a1u(null,null,l)
+m.ay$!==$&&A.ab()
+m.ay$=g
+h=g}m.Xf(new A.E5(j,B.KG,i,h,null))
+m.J1()
+return A.C(null,r)
+case 1:return A.B(p.at(-1),r)}})
 return A.D($async$awA,r)},
 N9:function N9(a){this.a=a},
 acM:function acM(){},
@@ -26386,7 +26399,7 @@ q===$&&A.a()
 s=a.b
 s===$&&A.a()
 return new A.r9(q,s,A.t(r,r))},
-bv(a,b){var s=t.S
+bw(a,b){var s=t.S
 A.aRf(a,b)
 return new A.r9(a,b,A.t(s,s))},
 aRf(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=A.fQ(A.pF(a,b,50)),d=e.b
@@ -29160,7 +29173,7 @@ A.a1y.prototype={
 $1(a){var s
 if(a instanceof A.rd){A.iR(B.w,null,t.H).by(0,new A.a1w(this.b),t.P)
 return}s=this.b
-A.bw("Could not get text from clipboard: "+A.k(a))
+A.bv("Could not get text from clipboard: "+A.k(a))
 s.toString
 s.$1(B.Z.bX(["paste_fail","Clipboard.getData failed",null]))},
 $S:24}
@@ -29201,7 +29214,7 @@ break
 case 4:p=3
 k=o.pop()
 n=A.a8(k)
-A.bw("copy is not successful "+A.k(n))
+A.bv("copy is not successful "+A.k(n))
 m=A.d_(!1,t.y)
 q=m
 s=1
@@ -29243,8 +29256,8 @@ s.focus($.ed())
 s.select()
 r=!1
 try{r=m.document.execCommand("copy")
-if(!r)A.bw("copy is not successful")}catch(p){q=A.a8(p)
-A.bw("copy is not successful "+A.k(q))}finally{s.remove()}return r}}
+if(!r)A.bv("copy is not successful")}catch(p){q=A.a8(p)
+A.bv("copy is not successful "+A.k(q))}finally{s.remove()}return r}}
 A.a4W.prototype={
 qt(a){var s=A.ZS(new A.rd("Paste is not implemented for this browser."),null),r=new A.au($.ao,t.fB)
 r.mD(s)
@@ -40798,7 +40811,7 @@ ai2(a,b){if(a==="Google Inc.")return B.cI
 else if(a==="Apple Computer, Inc.")return B.bp
 else if(B.d.q(b,"Edg/"))return B.cI
 else if(a===""&&B.d.q(b,"firefox"))return B.cJ
-A.bw("WARNING: failed to detect current browser engine. Assuming this is a Chromium-compatible browser.")
+A.bv("WARNING: failed to detect current browser engine. Assuming this is a Chromium-compatible browser.")
 return B.cI},
 gdh(){var s,r,q=this,p=q.f
 if(p===$){s=q.ai3()
@@ -86484,27 +86497,27 @@ return new A.GR(new A.bE(null,t.am),new A.jm(B.cc,p),new A.jm(B.cc,p),new A.jm(B
 A.GR.prototype={
 xe(){var s=0,r=A.E(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f
 var $async$xe=A.A(function(a,b){if(a===1){o.push(b)
-s=p}while(true)switch(s){case 0:if(!m.d.gK().nR()){A.bw("Form validation failed")
+s=p}while(true)switch(s){case 0:if(!m.d.gK().nR()){A.bv("Form validation failed")
 s=1
 break}i=m.f
-if(i.a.a!==m.r.a.a){A.bw("Passwords do not match")
+if(i.a.a!==m.r.a.a){A.bv("Passwords do not match")
 m.c.aj(t.Pu).f.ke(B.Pf)
 s=1
-break}A.bw("Starting signup process...")
+break}A.bv("Starting signup process...")
 m.a5(new A.as9(m))
 p=4
-A.bw("Calling AuthService.signUp...")
+A.bv("Calling AuthService.signUp...")
 s=7
 return A.H(m.x.o9(B.d.jj(m.e.a.a),B.d.jj(i.a.a),B.d.jj(m.w.a.a)),$async$xe)
 case 7:l=b
 i=l
 if(i==null)i=null
 else{i=i.gqp()
-i=i==null?null:i.a.c.a.a}A.bw("Signup successful: "+A.k(i))
-if(m.c==null){A.bw("Widget not mounted after signup")
+i=i==null?null:i.a.c.a.a}A.bv("Signup successful: "+A.k(i))
+if(m.c==null){A.bv("Widget not mounted after signup")
 n=[1]
 s=5
-break}A.bw("Navigating to menu screen...")
+break}A.bv("Navigating to menu screen...")
 i=m.c
 i.toString
 h=t.X
@@ -86515,8 +86528,8 @@ break
 case 4:p=3
 f=o.pop()
 k=A.a8(f)
-A.bw("Error during signup: "+A.k(k))
-if(m.c==null){A.bw("Widget not mounted after error")
+A.bv("Error during signup: "+A.k(k))
+if(m.c==null){A.bv("Widget not mounted after error")
 n=[1]
 s=5
 break}j="An error occurred during sign up"
@@ -86530,8 +86543,8 @@ s=5
 break
 case 3:n=[2]
 case 5:p=2
-A.bw("Signup process complete")
-if(m.c==null){A.bw("Widget not mounted in finally block")
+A.bv("Signup process complete")
+if(m.c==null){A.bv("Widget not mounted in finally block")
 s=1
 break}m.a5(new A.asb(m))
 s=n.pop()
@@ -86636,34 +86649,34 @@ l=k.z
 k.f!==$&&A.by()
 k.f=new A.a0Z(B.cM,k.gadL(),k.gaix(),k.ax,k.at,s,k.Q,r,q,p,o,n,m,!1,l)
 k.mM()},
-a2N(){A.bw("Checking artists for discard")
+a2N(){A.bv("Checking artists for discard")
 this.a5(new A.asG(this))},
 an9(a){var s=this
-A.bw("Attempting to play artist card: "+a)
-if(!s.fy||s.go){A.bw(u.Z)
+A.bv("Attempting to play artist card: "+a)
+if(!s.fy||s.go){A.bv(u.Z)
 return}s.a5(new A.atk(s,a))},
 anb(a){var s=this
-A.bw("Attempting to play support card: "+a)
-if(!s.fy||s.go){A.bw(u.Z)
+A.bv("Attempting to play support card: "+a)
+if(!s.fy||s.go){A.bv(u.Z)
 return}s.a5(new A.atr(s,a))},
 Vd(a,b){var s=this
-A.bw("Attempting to play item card: "+a+" (isAI: "+b+")")
-if(!s.fy&&!b||s.go){A.bw("Cannot play card - not correct turn or game is over")
-return}if(b&&s.k1.length!==0){A.bw("Cannot play item - AI can only play one item card per turn")
-return}if(!b&&s.dx.length!==0){A.bw("Cannot play item - you can only play one item card per turn")
+A.bv("Attempting to play item card: "+a+" (isAI: "+b+")")
+if(!s.fy&&!b||s.go){A.bv("Cannot play card - not correct turn or game is over")
+return}if(b&&s.k1.length!==0){A.bv("Cannot play item - AI can only play one item card per turn")
+return}if(!b&&s.dx.length!==0){A.bv("Cannot play item - you can only play one item card per turn")
 return}s.a5(new A.atp(s,b,a))},
 ana(a){return this.Vd(a,!1)},
 vV(a,b,c){this.a5(new A.asx(this))
 A.iR(B.bB,new A.asy(this,c),t.P)},
 a4M(){var s,r=this
-A.bw("End turn button pressed")
-A.bw("isPlayerTurn: "+r.fy)
-A.bw("isGameOver: "+r.go)
+A.bv("End turn button pressed")
+A.bv("isPlayerTurn: "+r.fy)
+A.bv("isGameOver: "+r.go)
 s=r.c!=null
-if(!s||!r.fy||r.go){A.bw("Cannot end turn: mounted="+s+", isPlayerTurn="+r.fy+", isGameOver="+r.go)
+if(!s||!r.fy||r.go){A.bv("Cannot end turn: mounted="+s+", isPlayerTurn="+r.fy+", isGameOver="+r.go)
 return}r.a5(new A.asJ(r))},
 a5Y(){var s=this
-A.bw("AI turn starting")
+A.bv("AI turn starting")
 if(s.c==null||s.go)return
 s.a5(new A.asR(s))
 A.iR(B.ct,new A.asS(s),t.P)},
@@ -86738,7 +86751,7 @@ break}p.a5(new A.at0(p,k))
 case 1:return A.C(q,r)}})
 return A.D($async$mM,r)},
 LK(){this.a5(new A.asH(this))},
-acq(){A.bw("Resetting game")
+acq(){A.bv("Resetting game")
 this.a5(new A.asU(this))},
 L(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d=t.w
 A.bk(a,e,d).toString
@@ -86784,12 +86797,12 @@ w1(a,b,c){var s=null,r=A.a6(51,a.n()>>>16&255,a.n()>>>8&255,a.n()&255),q=A.b7(15
 return A.bB(s,A.dD(A.b([A.eQ(b,a.f.h(0,300),s,16),A.cl(s,s,4),A.b5(c,s,s,s,A.c3(s,s,B.j,s,s,s,s,s,s,s,s,s,s,s,B.a0,s,s,!0,s,s,s,s,s,A.b([new A.h_(A.a6(p,a.n()>>>16&255,a.n()>>>8&255,a.n()&255),B.f,4)],t.kO),s,s),s,s)],t.p),B.y,B.L,B.I),B.m,s,s,new A.bs(r,s,o,q,n,s,B.z),s,s,s,new A.ay(12,6,12,6),s,s,s)}}
 A.asG.prototype={
 $0(){var s=this.a
-if(s.ch!=null){A.bw("Player artist turns: "+ ++s.CW)
-if(s.CW>=4){A.bw("Removing player artist: "+A.k(s.ch))
+if(s.ch!=null){A.bv("Player artist turns: "+ ++s.CW)
+if(s.CW>=4){A.bv("Removing player artist: "+A.k(s.ch))
 s.PM("Artist Retired","Your artist "+A.k(s.ch)+" has finished their performance!")
 s.ch=null
-s.CW=0}}if(s.cx!=null){A.bw("AI artist turns: "+ ++s.cy)
-if(s.cy>=4){A.bw("Removing AI artist: "+A.k(s.cx))
+s.CW=0}}if(s.cx!=null){A.bv("AI artist turns: "+ ++s.cy)
+if(s.cy>=4){A.bv("Removing AI artist: "+A.k(s.cx))
 s.cx=null
 s.cy=0}}},
 $S:0}
@@ -86798,17 +86811,17 @@ $0(){var s,r=this.a
 if(r.ch==null&&r.dy>=150){r.dy-=150
 s=r.ch=this.b
 r.CW=0
-r.vV(s,!0,new A.atj(r,s))}else A.bw("Cannot play artist - either already have active artist or not enough money")},
+r.vV(s,!0,new A.atj(r,s))}else A.bv("Cannot play artist - either already have active artist or not enough money")},
 $S:0}
 A.atj.prototype={
 $0(){B.b.E(this.a.ax,this.b)
-A.bw("Artist card played successfully")},
+A.bv("Artist card played successfully")},
 $S:10}
 A.atr.prototype={
 $0(){var s,r=this.a,q=r.db
 if(q.length===0){s=this.b
 q.push(s)
-r.vV(s,!0,new A.atq(r,s))}else A.bw("Cannot play support - you can only have one support card at a time")},
+r.vV(s,!0,new A.atq(r,s))}else A.bv("Cannot play support - you can only have one support card at a time")},
 $S:0}
 A.atq.prototype={
 $0(){var s=this.a,r=this.b
@@ -86816,7 +86829,7 @@ B.b.E(s.ax,r)
 s=s.f
 s===$&&A.a()
 s.ak5(r,!0)
-A.bw("Support card played successfully")},
+A.bv("Support card played successfully")},
 $S:10}
 A.atp.prototype={
 $0(){var s=this.b,r=this.a,q=this.c
@@ -86835,7 +86848,7 @@ r.TF(q,s)
 if(B.d.q(q.toLowerCase(),"led"))r.TI(q,s,new A.atm())
 else if(B.d.q(q.toLowerCase(),"pizza"))r.TK(q,s)
 else if(B.d.q(q.toLowerCase(),"money"))r.TJ(q,s)
-A.bw("Item card played successfully")},
+A.bv("Item card played successfully")},
 $S:10}
 A.atm.prototype={
 $0(){},
@@ -86850,7 +86863,7 @@ r.TF(q,s)
 if(B.d.q(q.toLowerCase(),"led"))r.TI(q,s,new A.atl())
 else if(B.d.q(q.toLowerCase(),"pizza"))r.TK(q,s)
 else if(B.d.q(q.toLowerCase(),"money"))r.TJ(q,s)
-A.bw("Item card played successfully")},
+A.bv("Item card played successfully")},
 $S:10}
 A.atl.prototype={
 $0(){},
@@ -86931,7 +86944,7 @@ A.asK.prototype={
 $0(){var s=this.a
 s.fy=!0
 s.yM(!0)
-A.bw("AI turn ended, switching to player turn")},
+A.bv("AI turn ended, switching to player turn")},
 $S:0}
 A.ati.prototype={
 $0(){var s,r,q
@@ -87420,12 +87433,12 @@ Y3(a,b,c){var s=0,r=A.E(t.Z0),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f
 var $async$o9=A.A(function(d,e){if(d===1){o.push(e)
 s=p}while(true)switch(s){case 0:h=null
 p=4
-A.bw("AuthService: Creating user with email auth...")
+A.bv("AuthService: Creating user with email auth...")
 s=7
 return A.H(n.a.ym(a,b),$async$o9)
 case 7:h=e
 k=h.gqp()
-A.bw("AuthService: User created with ID: "+A.k(k==null?null:k.a.c.a.a))
+A.bv("AuthService: User created with ID: "+A.k(k==null?null:k.a.c.a.a))
 s=8
 return A.H(n.oC(h.gqp().a.c.a.a,a,c),$async$o9)
 case 8:k=h
@@ -87438,22 +87451,22 @@ break
 case 4:p=3
 g=o.pop()
 m=A.a8(g)
-A.bw("AuthService: Error during sign up: "+A.k(m))
+A.bv("AuthService: Error during sign up: "+A.k(m))
 k=h
 s=(k==null?null:k.gqp())!=null?9:10
 break
-case 9:A.bw("AuthService: Cleaning up auth account due to Firestore error...")
+case 9:A.bv("AuthService: Cleaning up auth account due to Firestore error...")
 p=12
 s=15
 return A.H(h.gqp().dw(0),$async$o9)
-case 15:A.bw("AuthService: Auth account cleaned up successfully")
+case 15:A.bv("AuthService: Auth account cleaned up successfully")
 p=3
 s=14
 break
 case 12:p=11
 f=o.pop()
 l=A.a8(f)
-A.bw("AuthService: Error cleaning up auth account: "+A.k(l))
+A.bv("AuthService: Error cleaning up auth account: "+A.k(l))
 s=14
 break
 case 11:s=3
@@ -87483,7 +87496,7 @@ break
 case 4:p=3
 j=o.pop()
 m=A.a8(j)
-A.bw("Error during sign in: "+A.k(m))
+A.bv("Error during sign in: "+A.k(m))
 throw j
 s=6
 break
@@ -87520,7 +87533,7 @@ break
 case 4:p=3
 h=o.pop()
 l=A.a8(h)
-A.bw("Error getting points: "+A.k(l))
+A.bv("Error getting points: "+A.k(l))
 q=0
 s=1
 break
@@ -87550,7 +87563,7 @@ break
 case 4:p=3
 i=o.pop()
 m=A.a8(i)
-A.bw("Error updating points: "+A.k(m))
+A.bv("Error updating points: "+A.k(m))
 throw i
 s=6
 break
@@ -87579,7 +87592,7 @@ break
 case 4:p=3
 h=o.pop()
 l=A.a8(h)
-A.bw("Error getting user profile: "+A.k(l))
+A.bv("Error getting user profile: "+A.k(l))
 q=null
 s=1
 break
